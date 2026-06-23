@@ -853,7 +853,7 @@
                   "name": "Slack",
                   "opacity": 0.65,
                   "fill": "$text-muted",
-                  "content": "Slack",
+                  "content": "Mattermost",
                   "fontFamily": "$font-heading",
                   "fontSize": 18,
                   "fontWeight": "600"
@@ -875,7 +875,7 @@
                   "name": "Notion",
                   "opacity": 0.65,
                   "fill": "$text-muted",
-                  "content": "Notion",
+                  "content": "Obsidian",
                   "fontFamily": "$font-heading",
                   "fontSize": 18,
                   "fontWeight": "600"
@@ -886,7 +886,7 @@
                   "name": "HubSpot",
                   "opacity": 0.65,
                   "fill": "$text-muted",
-                  "content": "HubSpot",
+                  "content": "CRM",
                   "fontFamily": "$font-heading",
                   "fontSize": 18,
                   "fontWeight": "600"
