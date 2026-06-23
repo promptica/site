@@ -2738,7 +2738,7 @@
                   "id": "KFNPr",
                   "name": "Copyright",
                   "fill": "$text-muted",
-                  "content": "© 2026 Promptica",
+                  "content": "© 2024–2026 Promptica",
                   "fontFamily": "$font-mono",
                   "fontSize": 12,
                   "fontWeight": "normal"
