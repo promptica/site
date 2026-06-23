@@ -194,23 +194,51 @@
               "type": "frame",
               "id": "b7MOp9",
               "name": "Headline Wrap",
-              "width": 880,
+              "width": 920,
               "layout": "vertical",
+              "gap": 6,
               "alignItems": "center",
               "children": [
                 {
                   "type": "text",
-                  "id": "l8HPoj",
-                  "name": "Headline",
+                  "id": "hpCwH",
+                  "name": "Headline Prefix",
                   "fill": "$text-primary",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "ИИ-агенты, которые работают по вашим правилам и под вашим контролем",
+                  "content": "ИИ-агент, который",
                   "lineHeight": 1.05,
-                  "textAlign": "center",
                   "fontFamily": "$font-heading",
-                  "fontSize": 62,
+                  "fontSize": 58,
                   "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "YAG2C",
+                  "name": "Rotating Phrase",
+                  "gap": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rdAH8",
+                      "name": "Phrase",
+                      "fill": "$accent",
+                      "content": "обрабатывает заявки",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 58,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 1,
+                      "id": "ALxhf",
+                      "name": "Caret",
+                      "fill": "$accent",
+                      "width": 5,
+                      "height": 54
+                    }
+                  ]
                 }
               ]
             },
