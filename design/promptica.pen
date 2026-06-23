@@ -2040,16 +2040,6 @@
                           "fontFamily": "$font-body",
                           "fontSize": 14,
                           "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "al8F7",
-                          "name": "Кейсы",
-                          "fill": "$text-primary",
-                          "content": "Кейсы",
-                          "fontFamily": "$font-body",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
                         }
                       ]
                     },
