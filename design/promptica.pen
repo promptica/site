@@ -39,14 +39,17 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "icon",
-                      "id": "AGUX9",
+                      "type": "rectangle",
+                      "id": "c9eLuT",
                       "name": "Logo Mark",
-                      "width": 22,
-                      "height": 22,
-                      "icon": "hexagon",
-                      "library": "lucide",
-                      "fill": "$accent"
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "promptica-logo.png",
+                        "mode": "fit"
+                      },
+                      "width": 26,
+                      "height": 26
                     },
                     {
                       "type": "text",
@@ -1945,14 +1948,17 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "icon",
-                          "id": "oDhaC",
+                          "type": "rectangle",
+                          "id": "F2Eunu",
                           "name": "Mark",
-                          "width": 22,
-                          "height": 22,
-                          "icon": "hexagon",
-                          "library": "lucide",
-                          "fill": "$accent"
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "promptica-logo.png",
+                            "mode": "fit"
+                          },
+                          "width": 26,
+                          "height": 26
                         },
                         {
                           "type": "text",
