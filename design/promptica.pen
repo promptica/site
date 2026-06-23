@@ -214,15 +214,9 @@
                   "type": "frame",
                   "id": "YAG2C",
                   "name": "Rotating Phrase",
-                  "fill": "#6366F11F",
-                  "cornerRadius": 10,
+                  "fill": "#00000000",
                   "stroke": "#6366F140",
-                  "strokeWidth": 1,
                   "gap": 10,
-                  "padding": [
-                    6,
-                    16
-                  ],
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -236,6 +230,15 @@
                       "fontFamily": "$font-heading",
                       "fontSize": 58,
                       "fontWeight": "600"
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 1,
+                      "id": "xveQC",
+                      "name": "Caret",
+                      "fill": "$accent",
+                      "width": 5,
+                      "height": 54
                     }
                   ]
                 }
