@@ -1,0 +1,2230 @@
+{
+  "version": "2.13",
+  "children": [
+    {
+      "type": "frame",
+      "id": "C5QOi",
+      "x": 880,
+      "y": 0,
+      "name": "Promptica Landing",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "COV4r",
+          "name": "Nav Section",
+          "width": "fill_container",
+          "padding": [
+            20,
+            120
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "i8RXgo",
+              "name": "Nav",
+              "width": 1200,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C9oI6",
+                  "name": "Logo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "AGUX9",
+                      "name": "Logo Mark",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "hexagon",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hldzp",
+                      "name": "Logo Text",
+                      "fill": "$text-primary",
+                      "content": "Promptica",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jdcW7",
+                  "name": "Nav Links",
+                  "gap": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d5x6ya",
+                      "name": "Услуги",
+                      "fill": "$text-muted",
+                      "content": "Услуги",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F5wCRe",
+                      "name": "Подход",
+                      "fill": "$text-muted",
+                      "content": "Подход",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XtLvf",
+                      "name": "Почему мы",
+                      "fill": "$text-muted",
+                      "content": "Почему мы",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ttwrn",
+                      "name": "Кейсы",
+                      "fill": "$text-muted",
+                      "content": "Кейсы",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z9VTIF",
+                  "name": "Nav CTA",
+                  "fill": "$accent",
+                  "cornerRadius": "$radius-sm",
+                  "padding": [
+                    10,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n2312",
+                      "name": "Label",
+                      "fill": "#FFFFFF",
+                      "content": "Обсудить проект",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e1It7",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            110,
+            120,
+            72,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pCIyT",
+              "name": "Eyebrow",
+              "fill": "$surface",
+              "cornerRadius": 99,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                6,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "rZp1n",
+                  "name": "Dot",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "sparkles",
+                  "library": "lucide",
+                  "fill": "$accent"
+                },
+                {
+                  "type": "text",
+                  "id": "uAZ4n",
+                  "name": "Eyebrow Text",
+                  "fill": "$text-muted",
+                  "content": "ИИ-АГЕНТЫ ПОД ЗАКАЗ",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "b7MOp9",
+              "name": "Headline Wrap",
+              "width": 880,
+              "layout": "vertical",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l8HPoj",
+                  "name": "Headline",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Передайте рутину ИИ-агентам, созданным под ваш бизнес",
+                  "lineHeight": 1.05,
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 62,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "TMWHP",
+              "name": "Subheadline",
+              "fill": "$text-muted",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Promptica проектирует и внедряет автономных ИИ-агентов, которые берут на себя повторяющиеся процессы — от обработки заявок до анализа данных — и встраиваются в ваши системы.",
+              "lineHeight": 1.55,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "qk4HR",
+              "name": "Hero Buttons",
+              "gap": 12,
+              "padding": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Y2alC",
+                  "name": "Primary Button",
+                  "fill": "$accent",
+                  "cornerRadius": "$radius-sm",
+                  "gap": 8,
+                  "padding": [
+                    13,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O0yeIJ",
+                      "name": "Label",
+                      "fill": "#FFFFFF",
+                      "content": "Обсудить проект",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "I4HML",
+                      "name": "Arrow",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NeT1X",
+                  "name": "Secondary Button",
+                  "fill": "#00000000",
+                  "cornerRadius": "$radius-sm",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    13,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fDvIa",
+                      "name": "Label",
+                      "fill": "$text-primary",
+                      "content": "Как мы работаем",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uGDKV",
+              "name": "Console Wrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                48,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OlwBg",
+                  "name": "Agent Console",
+                  "clip": true,
+                  "width": 1080,
+                  "fill": "$surface",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#6366F140",
+                    "offset": {
+                      "x": 0,
+                      "y": 24
+                    },
+                    "blur": 80
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Dw5aJ",
+                      "name": "Window Bar",
+                      "width": "fill_container",
+                      "fill": "$surface-2",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "padding": [
+                        14,
+                        18
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Ii2qA",
+                          "name": "Dots",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "bJ6Wz",
+                              "name": "Dot",
+                              "fill": "#3A3A3F",
+                              "width": 11,
+                              "height": 11
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "VvCcG",
+                              "name": "Dot",
+                              "fill": "#3A3A3F",
+                              "width": 11,
+                              "height": 11
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "FChe1",
+                              "name": "Dot",
+                              "fill": "#3A3A3F",
+                              "width": 11,
+                              "height": 11
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "NrAyC",
+                          "name": "Title",
+                          "fill": "$text-muted",
+                          "content": "promptica-agent · sales-pipeline · run #1284",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G95FF",
+                          "name": "Status",
+                          "fill": "$accent",
+                          "content": "● running",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l4njI",
+                      "name": "Console Body",
+                      "width": "fill_container",
+                      "height": 360,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Ct8gQ",
+                          "name": "Sidebar",
+                          "width": 280,
+                          "height": "fill_container",
+                          "fill": "$surface",
+                          "stroke": "$border-subtle",
+                          "strokeWidth": {
+                            "right": 1
+                          },
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WKxqU",
+                              "name": "Pipeline Label",
+                              "fill": "$text-muted",
+                              "content": "PIPELINE",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.5
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Oe39W",
+                              "name": "Входящая заявка",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "gb97A",
+                                  "name": "St",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "check",
+                                  "library": "lucide",
+                                  "fill": "$accent"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "P32ZjJ",
+                                  "name": "Lbl",
+                                  "fill": "$text-primary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Входящая заявка",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "HBcCv",
+                              "name": "Классификация намерения",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "pz16l",
+                                  "name": "St",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "check",
+                                  "library": "lucide",
+                                  "fill": "$accent"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ZnxpW",
+                                  "name": "Lbl",
+                                  "fill": "$text-primary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Классификация намерения",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y7f1yB",
+                              "name": "Поиск клиента в CRM",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "aVgod",
+                                  "name": "St",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "loader",
+                                  "library": "lucide",
+                                  "fill": "$accent"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "elJ9g",
+                                  "name": "Lbl",
+                                  "fill": "$text-primary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Поиск клиента в CRM",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "EdJUS",
+                              "name": "Черновик ответа",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "WNMU9",
+                                  "name": "St",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "circle",
+                                  "library": "lucide",
+                                  "fill": "$text-muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "TEo8Y",
+                                  "name": "Lbl",
+                                  "fill": "$text-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Черновик ответа",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Oo3i8",
+                              "name": "Отправка и лог",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "svhfA",
+                                  "name": "St",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "circle",
+                                  "library": "lucide",
+                                  "fill": "$text-muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "AlATb",
+                                  "name": "Lbl",
+                                  "fill": "$text-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Отправка и лог",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Zm7uK",
+                          "name": "Log",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$bg",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 22,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "X3ORCt",
+                              "name": "Line",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ArPpE",
+                                  "name": "Mark",
+                                  "fill": "$accent",
+                                  "content": "→",
+                                  "fontFamily": "$font-mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "uMj3H",
+                                  "name": "Txt",
+                                  "fill": "$text-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Получена заявка #4821 из веб-формы",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Dg8qY",
+                              "name": "Line",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QjqYo",
+                                  "name": "Mark",
+                                  "fill": "$accent",
+                                  "content": "✓",
+                                  "fontFamily": "$font-mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "JELUP",
+                                  "name": "Txt",
+                                  "fill": "$text-primary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Намерение определено: запрос КП · уверенность 0.94",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GM3yd",
+                              "name": "Line",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Gz6yp",
+                                  "name": "Mark",
+                                  "fill": "$accent",
+                                  "content": "✓",
+                                  "fontFamily": "$font-mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Gg33U",
+                                  "name": "Txt",
+                                  "fill": "$text-primary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Клиент найден в CRM: ООО «Север», сегмент Enterprise",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hgonP",
+                              "name": "Line",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "xMYFA",
+                                  "name": "Mark",
+                                  "fill": "$accent",
+                                  "content": "→",
+                                  "fontFamily": "$font-mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "TSHVY",
+                                  "name": "Txt",
+                                  "fill": "$text-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Генерация ответа по шаблону КП…",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JiUMH",
+                              "name": "Result Card",
+                              "width": "fill_container",
+                              "fill": "$surface",
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$accent",
+                              "strokeWidth": 1,
+                              "gap": 12,
+                              "padding": 16,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "q1oTR",
+                                  "name": "Check",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "circle-check-big",
+                                  "library": "lucide",
+                                  "fill": "$accent"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "h6uUWm",
+                                  "name": "DoneTxt",
+                                  "fill": "$text-primary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Готово: ответ согласован и отправлен за 8 секунд — без участия менеджера",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 14,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S6BX2",
+          "name": "Trust Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            36,
+            120,
+            60,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "vjWXy",
+              "name": "Trust Caption",
+              "fill": "$text-muted",
+              "content": "ВСТРАИВАЕМСЯ В ВАШ СТЕК",
+              "fontFamily": "$font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "k5Ffp",
+              "name": "Marks",
+              "gap": 52,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Gvzsg",
+                  "name": "Slack",
+                  "opacity": 0.65,
+                  "fill": "$text-muted",
+                  "content": "Slack",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Vygel",
+                  "name": "Telegram",
+                  "opacity": 0.65,
+                  "fill": "$text-muted",
+                  "content": "Telegram",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "vRMv1",
+                  "name": "Notion",
+                  "opacity": 0.65,
+                  "fill": "$text-muted",
+                  "content": "Notion",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "rfd0k",
+                  "name": "HubSpot",
+                  "opacity": 0.65,
+                  "fill": "$text-muted",
+                  "content": "HubSpot",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "OCWCV",
+                  "name": "1С",
+                  "opacity": 0.65,
+                  "fill": "$text-muted",
+                  "content": "1С",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "I8pNDv",
+                  "name": "REST API",
+                  "opacity": 0.65,
+                  "fill": "$text-muted",
+                  "content": "REST API",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "h0cPl",
+                  "name": "Postgres",
+                  "opacity": 0.65,
+                  "fill": "$text-muted",
+                  "content": "Postgres",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "c5n3y",
+          "name": "Services Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 52,
+          "padding": [
+            88,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "F0Yi0",
+              "name": "Services Header",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iJv0t",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "УСЛУГИ",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "V4rUP0",
+                  "name": "Heading",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "От идеи до агента в проде",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 42,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "dV9Ts",
+                  "name": "Sub",
+                  "fill": "$text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Берём на себя весь цикл — находим, где ИИ даст эффект, проектируем агента и встраиваем его в работу команды.",
+                  "lineHeight": 1.55,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SNPmY",
+              "name": "Services Row",
+              "width": 1200,
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ybZe1",
+                  "name": "Кастомные ИИ-агенты под процесс",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 30,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HFRwL",
+                      "name": "Badge",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-sm",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "B0MzL",
+                          "name": "Icon",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "bot",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qyhqi",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Кастомные ИИ-агенты под процесс",
+                      "lineHeight": 1.25,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Sr7eb",
+                      "name": "Desc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Автономные агенты, которые ведут процесс от начала до конца: принимают входящие, готовят документы, действуют по вашим правилам и эскалируют, когда нужно участие человека.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Gpx6X",
+                  "name": "Интеграция в существующие системы",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 30,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rVBxv",
+                      "name": "Badge",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-sm",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "xsFYE",
+                          "name": "Icon",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "blocks",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "HTxid",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Интеграция в существующие системы",
+                      "lineHeight": 1.25,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TQMjP",
+                      "name": "Desc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Подключаем агентов к CRM, базам данных, мессенджерам и внутренним API. Они работают там, где уже работает команда, без смены ваших инструментов.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rt11d",
+                  "name": "Аудит и стратегия внедрения",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 30,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AY76P",
+                      "name": "Badge",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-sm",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "W3bdM",
+                          "name": "Icon",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "compass",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "oJMBl",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Аудит и стратегия внедрения",
+                      "lineHeight": 1.25,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bg2hs",
+                      "name": "Desc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Находим процессы с максимальной отдачей от ИИ, оцениваем риски и строим дорожную карту внедрения с приоритетами, метриками и сроками.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q9EBQv",
+          "name": "Approach Section",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            88,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "K6oqBr",
+              "name": "Approach Header",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sBeHw",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "ПОДХОД",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "KO90y",
+                  "name": "Heading",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Четыре шага до работающего агента",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 42,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fQpy4",
+              "name": "Steps Row",
+              "width": 1200,
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V68QA",
+                  "name": "Аудит",
+                  "width": "fill_container",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DNzja",
+                      "name": "Num",
+                      "fill": "$accent",
+                      "content": "01",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tyoKB",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Аудит",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RaWNl",
+                      "name": "Desc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Разбираем процессы и данные, выбираем, где агент окупится быстрее всего.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cW03S",
+                  "name": "Прототип",
+                  "width": "fill_container",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JVFaJ",
+                      "name": "Num",
+                      "fill": "$accent",
+                      "content": "02",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iMb0x",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Прототип",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "op0e7",
+                      "name": "Desc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "За 1–2 недели собираем рабочий прототип на ваших реальных кейсах.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BIKLy",
+                  "name": "Внедрение",
+                  "width": "fill_container",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IdpKO",
+                      "name": "Num",
+                      "fill": "$accent",
+                      "content": "03",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q7oJW",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Внедрение",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dqMXg",
+                      "name": "Desc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Подключаем к системам, настраиваем правила и тестируем на живом потоке.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y9Xa5w",
+                  "name": "Поддержка",
+                  "width": "fill_container",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GFveA",
+                      "name": "Num",
+                      "fill": "$accent",
+                      "content": "04",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bBEwG",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Поддержка",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b0acR",
+                      "name": "Desc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Следим за метриками, дообучаем и расширяем зону ответственности агента.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b7eoeU",
+          "name": "Why Section",
+          "width": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 52,
+          "padding": [
+            88,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mP0Uk",
+              "name": "Why Header",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kEIaj",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "ПОЧЕМУ МЫ",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "W8cANv",
+                  "name": "Heading",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Не эксперименты, а результат в проде",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 42,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Wm9uD",
+              "name": "Metrics Row",
+              "width": 1200,
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pVD8c",
+                  "name": "2 недели",
+                  "width": "fill_container",
+                  "stroke": "$accent",
+                  "strokeWidth": {
+                    "left": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    4,
+                    0,
+                    4,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L9JxzK",
+                      "name": "Num",
+                      "fill": "$text-primary",
+                      "content": "2 недели",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lO9uF",
+                      "name": "Label",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "до первого работающего прототипа на ваших данных",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "a40Uw",
+                  "name": "до 70%",
+                  "width": "fill_container",
+                  "stroke": "$accent",
+                  "strokeWidth": {
+                    "left": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    4,
+                    0,
+                    4,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "byByo",
+                      "name": "Num",
+                      "fill": "$text-primary",
+                      "content": "до 70%",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "A7KeZ",
+                      "name": "Label",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "рутинных операций передаём агентам",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dCC9i",
+                  "name": "24/7",
+                  "width": "fill_container",
+                  "stroke": "$accent",
+                  "strokeWidth": {
+                    "left": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    4,
+                    0,
+                    4,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lgsbb",
+                      "name": "Num",
+                      "fill": "$text-primary",
+                      "content": "24/7",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YkMDz",
+                      "name": "Label",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "агенты работают без перерывов и выходных",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OMTaH",
+                  "name": "100%",
+                  "width": "fill_container",
+                  "stroke": "$accent",
+                  "strokeWidth": {
+                    "left": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    4,
+                    0,
+                    4,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h3pis",
+                      "name": "Num",
+                      "fill": "$text-primary",
+                      "content": "100%",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cmjL2",
+                      "name": "Label",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "действий логируются и остаются проверяемыми",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Tgfp0",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "obZYw",
+              "name": "CTA Card",
+              "width": 920,
+              "fill": "$surface",
+              "cornerRadius": "$radius-lg",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#6366F133",
+                "offset": {
+                  "x": 0,
+                  "y": 20
+                },
+                "blur": 90
+              },
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 60,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "O8wVw",
+                  "name": "CTA Header",
+                  "width": 600,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ahq5G",
+                      "name": "Heading",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Обсудим вашего агента?",
+                      "lineHeight": 1.1,
+                      "textAlign": "center",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 38,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fQPJ1",
+                      "name": "Sub",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Расскажите о задаче — вернёмся с оценкой и предложением, где ИИ-агент окупится быстрее всего.",
+                      "lineHeight": 1.55,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IcIaK",
+                  "name": "Form",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uJocw",
+                      "name": "Имя",
+                      "width": "fill_container",
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-sm",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "A466P",
+                          "name": "Placeholder",
+                          "fill": "$text-muted",
+                          "content": "Имя",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "o1eQB",
+                      "name": "Рабочий email",
+                      "width": "fill_container",
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-sm",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kgfS3",
+                          "name": "Placeholder",
+                          "fill": "$text-muted",
+                          "content": "Рабочий email",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n8uKpz",
+                      "name": "Коротко о задаче и процессе",
+                      "width": "fill_container",
+                      "height": 108,
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-sm",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WJo23",
+                          "name": "Placeholder",
+                          "fill": "$text-muted",
+                          "content": "Коротко о задаче и процессе",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "V1Gug",
+                      "name": "Submit",
+                      "width": "fill_container",
+                      "fill": "$accent",
+                      "cornerRadius": "$radius-sm",
+                      "gap": 8,
+                      "padding": [
+                        15,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I5aUR",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "Отправить заявку",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "C2ffbu",
+                          "name": "Arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cMWej",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$surface",
+          "stroke": "$border-subtle",
+          "strokeWidth": {
+            "top": 1
+          },
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            56,
+            120,
+            36,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JnJcW",
+              "name": "Footer Top",
+              "width": 1200,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s08Po",
+                  "name": "Brand",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nmEbi",
+                      "name": "Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "oDhaC",
+                          "name": "Mark",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "hexagon",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D0MsAE",
+                          "name": "Name",
+                          "fill": "$text-primary",
+                          "content": "Promptica",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "MpnaZ",
+                      "name": "Tagline",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Проектируем и внедряем ИИ-агентов под процессы вашего бизнеса.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d13BNU",
+                  "name": "Cols",
+                  "gap": 80,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uGHUD",
+                      "name": "НАВИГАЦИЯ",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XmNN2",
+                          "name": "ColTitle",
+                          "fill": "$text-muted",
+                          "content": "НАВИГАЦИЯ",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "nmjqG",
+                          "name": "Услуги",
+                          "fill": "$text-primary",
+                          "content": "Услуги",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bmLJO",
+                          "name": "Подход",
+                          "fill": "$text-primary",
+                          "content": "Подход",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Xr4xC",
+                          "name": "Почему мы",
+                          "fill": "$text-primary",
+                          "content": "Почему мы",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "al8F7",
+                          "name": "Кейсы",
+                          "fill": "$text-primary",
+                          "content": "Кейсы",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NfE1i",
+                      "name": "КОНТАКТ",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "g0wYm",
+                          "name": "ColTitle",
+                          "fill": "$text-muted",
+                          "content": "КОНТАКТ",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "RKqQD",
+                          "name": "hello@promptica.dev",
+                          "fill": "$text-primary",
+                          "content": "hello@promptica.dev",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CC3kg",
+                          "name": "github.com/promptica",
+                          "fill": "$text-primary",
+                          "content": "github.com/promptica",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QxZLd",
+                          "name": "Telegram: @promptica",
+                          "fill": "$text-primary",
+                          "content": "Telegram: @promptica",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jC7y2",
+              "name": "Footer Bottom",
+              "width": 1200,
+              "stroke": "$border-subtle",
+              "strokeWidth": {
+                "top": 1
+              },
+              "padding": [
+                24,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KFNPr",
+                  "name": "Copyright",
+                  "fill": "$text-muted",
+                  "content": "© 2026 Promptica",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "agJTz",
+                  "name": "Madeline",
+                  "fill": "$text-muted",
+                  "content": "Создаём агентов, которые работают",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent": {
+      "type": "color",
+      "value": "#6366F1"
+    },
+    "accent-glow": {
+      "type": "color",
+      "value": "#4F46E5"
+    },
+    "bg": {
+      "type": "color",
+      "value": "#0A0A0B"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#26262A"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "font-mono": {
+      "type": "string",
+      "value": "Geist Mono"
+    },
+    "radius-lg": {
+      "type": "number",
+      "value": 14
+    },
+    "radius-sm": {
+      "type": "number",
+      "value": 8
+    },
+    "surface": {
+      "type": "color",
+      "value": "#141416"
+    },
+    "surface-2": {
+      "type": "color",
+      "value": "#1B1B1E"
+    },
+    "text-muted": {
+      "type": "color",
+      "value": "#8A8A8F"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#EDEDED"
+    }
+  }
+}
