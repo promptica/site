@@ -2040,17 +2040,7 @@
                           "id": "RKqQD",
                           "name": "hello@promptica.dev",
                           "fill": "$text-primary",
-                          "content": "hello@promptica.dev",
-                          "fontFamily": "$font-body",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "CC3kg",
-                          "name": "github.com/promptica",
-                          "fill": "$text-primary",
-                          "content": "github.com/promptica",
+                          "content": "info@promptica.ru",
                           "fontFamily": "$font-body",
                           "fontSize": 14,
                           "fontWeight": "normal"
