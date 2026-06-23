@@ -1753,6 +1753,624 @@
         },
         {
           "type": "frame",
+          "id": "yjs2L",
+          "name": "Cases Section",
+          "metadata": {
+            "type": "section",
+            "anchor": "cases"
+          },
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 52,
+          "padding": [
+            88,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "etkfM",
+              "name": "Cases Header",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "n7Jj9V",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "ПРИМЕРЫ ЗАДАЧ",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "w17Sc",
+                  "name": "Heading",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Что мы автоматизируем",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 42,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "qVQfT",
+                  "name": "Sub",
+                  "fill": "$text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Типовые процессы, которые берут на себя наши агенты. Под ваш бизнес собираем агента точно так же — от задачи до результата в проде.",
+                  "lineHeight": 1.55,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ilnWp",
+              "name": "Cases Grid",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MBoUn",
+                  "name": "Cases Row",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FFr5P",
+                      "name": "Обработка входящих заявок",
+                      "width": "fill_container",
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-lg",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 30,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KkWuh",
+                          "name": "Top",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kQFzX",
+                              "name": "Badge",
+                              "width": 42,
+                              "height": 42,
+                              "fill": "$bg",
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$border-subtle",
+                              "strokeWidth": 1,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "VrPhH",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "inbox",
+                                  "library": "lucide",
+                                  "fill": "$accent"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "aZ8vQ",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "ПРОДАЖИ",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "ikfVe",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Обработка входящих заявок",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IcwRL",
+                          "name": "Desc",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Агент классифицирует заявку, находит клиента в CRM, готовит черновик КП и эскалирует менеджеру всё нестандартное.",
+                          "lineHeight": 1.55,
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "M8BPT",
+                          "name": "Result",
+                          "width": "fill_container",
+                          "stroke": "$border-subtle",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            14,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "L2myLw",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check-big",
+                              "library": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "BhZa2",
+                              "name": "Res",
+                              "fill": "$text-primary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Первый ответ за минуты, ни одна заявка не теряется",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WVG7g",
+                      "name": "Ассистент поддержки по базе знаний",
+                      "width": "fill_container",
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-lg",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 30,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Bl7Rd",
+                          "name": "Top",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mvstc",
+                              "name": "Badge",
+                              "width": 42,
+                              "height": 42,
+                              "fill": "$bg",
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$border-subtle",
+                              "strokeWidth": 1,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "MMCuc",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "messages-square",
+                                  "library": "lucide",
+                                  "fill": "$accent"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "xINBN",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "ПОДДЕРЖКА",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "xc2h9",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ассистент поддержки по базе знаний",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "z3yLIn",
+                          "name": "Desc",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Отвечает на вопросы по вашей документации и базе знаний, закрывает рутину, сложное передаёт оператору с контекстом.",
+                          "lineHeight": 1.55,
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pAFdK",
+                          "name": "Result",
+                          "width": "fill_container",
+                          "stroke": "$border-subtle",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            14,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "cRaiX",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check-big",
+                              "library": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "c5Uqp3",
+                              "name": "Res",
+                              "fill": "$text-primary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Большинство обращений закрывается без оператора",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RA7NR",
+                  "name": "Cases Row",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vUZQy",
+                      "name": "Разбор первичных документов",
+                      "width": "fill_container",
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-lg",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 30,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QkVir",
+                          "name": "Top",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "C3XyD",
+                              "name": "Badge",
+                              "width": 42,
+                              "height": 42,
+                              "fill": "$bg",
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$border-subtle",
+                              "strokeWidth": 1,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "pnHKz",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "file-text",
+                                  "library": "lucide",
+                                  "fill": "$accent"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "m4WZsa",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "ФИНАНСЫ",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "CBHID",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Разбор первичных документов",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BUvzC",
+                          "name": "Desc",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Распознаёт входящие счета и акты, сверяет с заказами, заносит в учётную систему и помечает расхождения.",
+                          "lineHeight": 1.55,
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k9BzRB",
+                          "name": "Result",
+                          "width": "fill_container",
+                          "stroke": "$border-subtle",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            14,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "MEVRr",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check-big",
+                              "library": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "v9E2D0",
+                              "name": "Res",
+                              "fill": "$text-primary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Документы обрабатываются в день поступления",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "P28FPb",
+                      "name": "Квалификация и follow-up сделок",
+                      "width": "fill_container",
+                      "fill": "$surface-2",
+                      "cornerRadius": "$radius-lg",
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 30,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "i8r4y",
+                          "name": "Top",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "FSEwS",
+                              "name": "Badge",
+                              "width": 42,
+                              "height": 42,
+                              "fill": "$bg",
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$border-subtle",
+                              "strokeWidth": 1,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Y6y2yX",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "refresh-cw",
+                                  "library": "lucide",
+                                  "fill": "$accent"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "U9DkSo",
+                              "name": "Tag",
+                              "fill": "$accent",
+                              "content": "B2B-ПРОДАЖИ",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "npwyf",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Квалификация и follow-up сделок",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GTV3p",
+                          "name": "Desc",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ведёт цепочку касаний по правилам, напоминает должникам, обновляет статусы сделок в CRM и Mattermost.",
+                          "lineHeight": 1.55,
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sXcyn",
+                          "name": "Result",
+                          "width": "fill_container",
+                          "stroke": "$border-subtle",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            14,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "XEXLv",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check-big",
+                              "library": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lES76",
+                              "name": "Res",
+                              "fill": "$text-primary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Регулярный follow-up без участия людей",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "Tgfp0",
           "name": "CTA Section",
           "width": "fill_container",
@@ -2037,6 +2655,16 @@
                           "name": "Почему мы",
                           "fill": "$text-primary",
                           "content": "Почему мы",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Uq6KI",
+                          "name": "Кейсы",
+                          "fill": "$text-primary",
+                          "content": "Кейсы",
                           "fontFamily": "$font-body",
                           "fontSize": 14,
                           "fontWeight": "normal"
