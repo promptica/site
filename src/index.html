@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Promptica — ИИ-агенты под заказ</title>
+  <meta name="description" content="Promptica проектирует и внедряет автономных ИИ-агентов под процессы вашего бизнеса — по вашим правилам и под вашим контролем." />
+  <link rel="icon" type="image/png" href="./assets/promptica-logo-white.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="logo" href="#top" aria-label="Promptica">
+        <img src="./assets/promptica-logo-white.png" alt="" width="26" height="26" />
+        <span>Promptica</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#services">Услуги</a>
+        <a href="#approach">Подход</a>
+        <a href="#why">Почему мы</a>
+        <a href="#cases">Кейсы</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="https://t.me/promptica">Обсудить проект</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <span class="eyebrow"><i data-lucide="sparkles"></i><span>ИИ-АГЕНТЫ ПОД ЗАКАЗ</span></span>
+      <h1 class="headline">
+        ИИ-агент, который<br />
+        <span class="rotate-line">
+          <span class="rotate" id="rotate" aria-live="polite">обрабатывает заявки</span><span class="caret" aria-hidden="true"></span>
+        </span>
+      </h1>
+      <p class="subhead">Promptica проектирует агентов под ваши процессы и регламенты: они автоматизируют рутину, действуют по заданным правилам и передают человеку всё, что выходит за рамки.</p>
+      <div class="hero-btns">
+        <a class="btn btn-primary" href="https://t.me/promptica">Обсудить проект <i data-lucide="arrow-right"></i></a>
+        <a class="btn btn-secondary" href="#approach">Как мы работаем</a>
+      </div>
+
+      <!-- Agent console -->
+      <div class="console">
+        <div class="win-bar">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <span class="mono muted">promptica-agent · sales-pipeline · run #1284</span>
+          <span class="mono accent">● running</span>
+        </div>
+        <div class="console-body">
+          <aside class="sidebar">
+            <div class="mono muted pipeline-label">PIPELINE</div>
+            <div class="step-row"><i data-lucide="check" class="accent"></i><span>Входящая заявка</span></div>
+            <div class="step-row"><i data-lucide="check" class="accent"></i><span>Классификация намерения</span></div>
+            <div class="step-row active"><i data-lucide="loader" class="accent"></i><span>Поиск клиента в CRM</span></div>
+            <div class="step-row pending"><i data-lucide="circle"></i><span>Черновик ответа</span></div>
+            <div class="step-row pending"><i data-lucide="circle"></i><span>Отправка и лог</span></div>
+          </aside>
+          <div class="log">
+            <div class="log-line"><span class="mono accent">→</span><span class="mono muted">Получена заявка #4821 из веб-формы</span></div>
+            <div class="log-line"><span class="mono accent">✓</span><span class="mono">Намерение определено: запрос КП · уверенность 0.94</span></div>
+            <div class="log-line"><span class="mono accent">✓</span><span class="mono">Клиент найден в CRM: ООО «Север», сегмент Enterprise</span></div>
+            <div class="log-line"><span class="mono accent">→</span><span class="mono muted">Генерация ответа по шаблону КП…</span></div>
+            <div class="result"><i data-lucide="circle-check-big" class="accent"></i><span>Готово: ответ согласован и отправлен за 8 секунд — без участия менеджера</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST -->
+    <section class="trust">
+      <div class="mono muted">ВСТРАИВАЕМСЯ В ВАШ СТЕК</div>
+      <div class="marks">
+        <span>Mattermost</span><span>Telegram</span><span>Obsidian</span><span>CRM</span><span>1С</span><span>REST API</span><span>Postgres</span>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="section-head">
+        <div class="eyebrow-accent">УСЛУГИ</div>
+        <h2 class="h2">От идеи до агента в проде</h2>
+        <p class="section-sub">Берём на себя весь цикл — находим, где ИИ даст эффект, проектируем агента и встраиваем его в работу команды.</p>
+      </div>
+      <div class="cards-3">
+        <article class="card">
+          <div class="badge"><i data-lucide="bot"></i></div>
+          <h3>Кастомные ИИ-агенты под процесс</h3>
+          <p>Автономные агенты, которые ведут процесс от начала до конца: принимают входящие, готовят документы, действуют по вашим правилам и эскалируют, когда нужно участие человека.</p>
+        </article>
+        <article class="card">
+          <div class="badge"><i data-lucide="blocks"></i></div>
+          <h3>Интеграция в существующие системы</h3>
+          <p>Подключаем агентов к CRM, базам данных, мессенджерам и внутренним API. Они работают там, где уже работает команда, без смены ваших инструментов.</p>
+        </article>
+        <article class="card">
+          <div class="badge"><i data-lucide="compass"></i></div>
+          <h3>Аудит и стратегия внедрения</h3>
+          <p>Находим процессы с максимальной отдачей от ИИ, оцениваем риски и строим дорожную карту внедрения с приоритетами, метриками и сроками.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="section approach" id="approach">
+      <div class="section-head">
+        <div class="eyebrow-accent">ПОДХОД</div>
+        <h2 class="h2">Четыре шага до работающего агента</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><span class="mono accent num">01</span><h3>Аудит</h3><p>Разбираем процессы и данные, выбираем, где агент окупится быстрее всего.</p></div>
+        <div class="step"><span class="mono accent num">02</span><h3>Прототип</h3><p>За 1–2 недели собираем рабочий прототип на ваших реальных кейсах.</p></div>
+        <div class="step"><span class="mono accent num">03</span><h3>Внедрение</h3><p>Подключаем к системам, настраиваем правила и тестируем на живом потоке.</p></div>
+        <div class="step"><span class="mono accent num">04</span><h3>Поддержка</h3><p>Следим за метриками, дообучаем и расширяем зону ответственности агента.</p></div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="section" id="why">
+      <div class="section-head">
+        <div class="eyebrow-accent">ПОЧЕМУ МЫ</div>
+        <h2 class="h2">Не эксперименты, а результат в проде</h2>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="num-big">2 недели</div><p>до первого работающего прототипа на ваших данных</p></div>
+        <div class="metric"><div class="num-big">до 70%</div><p>рутинных операций передаём агентам</p></div>
+        <div class="metric"><div class="num-big">24/7</div><p>агенты работают без перерывов и выходных</p></div>
+        <div class="metric"><div class="num-big">100%</div><p>действий логируются и остаются проверяемыми</p></div>
+      </div>
+    </section>
+
+    <!-- CASES -->
+    <section class="section cases" id="cases">
+      <div class="section-head">
+        <div class="eyebrow-accent">ПРИМЕРЫ ЗАДАЧ</div>
+        <h2 class="h2">Что мы автоматизируем</h2>
+        <p class="section-sub">Типовые процессы, которые берут на себя наши агенты. Под ваш бизнес собираем агента точно так же — от задачи до результата в проде.</p>
+      </div>
+      <div class="cases-grid">
+        <article class="case">
+          <div class="case-top"><div class="badge sm"><i data-lucide="inbox"></i></div><span class="mono accent">ПРОДАЖИ</span></div>
+          <h3>Обработка входящих заявок</h3>
+          <p>Агент классифицирует заявку, находит клиента в CRM, готовит черновик КП и эскалирует менеджеру всё нестандартное.</p>
+          <div class="case-res"><i data-lucide="circle-check-big" class="accent"></i><span>Первый ответ за минуты, ни одна заявка не теряется</span></div>
+        </article>
+        <article class="case">
+          <div class="case-top"><div class="badge sm"><i data-lucide="messages-square"></i></div><span class="mono accent">ПОДДЕРЖКА</span></div>
+          <h3>Ассистент поддержки по базе знаний</h3>
+          <p>Отвечает на вопросы по вашей документации и базе знаний, закрывает рутину, сложное передаёт оператору с контекстом.</p>
+          <div class="case-res"><i data-lucide="circle-check-big" class="accent"></i><span>Большинство обращений закрывается без оператора</span></div>
+        </article>
+        <article class="case">
+          <div class="case-top"><div class="badge sm"><i data-lucide="file-text"></i></div><span class="mono accent">ФИНАНСЫ</span></div>
+          <h3>Разбор первичных документов</h3>
+          <p>Распознаёт входящие счета и акты, сверяет с заказами, заносит в учётную систему и помечает расхождения.</p>
+          <div class="case-res"><i data-lucide="circle-check-big" class="accent"></i><span>Документы обрабатываются в день поступления</span></div>
+        </article>
+        <article class="case">
+          <div class="case-top"><div class="badge sm"><i data-lucide="refresh-cw"></i></div><span class="mono accent">B2B-ПРОДАЖИ</span></div>
+          <h3>Квалификация и follow-up сделок</h3>
+          <p>Ведёт цепочку касаний по правилам, напоминает должникам, обновляет статусы сделок в CRM и Mattermost.</p>
+          <div class="case-res"><i data-lucide="circle-check-big" class="accent"></i><span>Регулярный follow-up без участия людей</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="cta-card">
+        <h2 class="h2">Обсудим вашего агента?</h2>
+        <p class="section-sub">Расскажите о задаче — вернёмся с оценкой и предложением, где ИИ-агент окупится быстрее всего.</p>
+        <div class="cta-action">
+          <a class="btn btn-primary tg-btn" href="https://t.me/promptica"><i data-lucide="send"></i> Написать в Telegram</a>
+          <div class="human-note"><i data-lucide="message-circle-heart"></i><span>Отвечает живой человек из команды, а не бот — обычно в течение пары часов.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer-top">
+      <div class="brand">
+        <a class="logo" href="#top" aria-label="Promptica">
+          <img src="./assets/promptica-logo-white.png" alt="" width="26" height="26" />
+          <span>Promptica</span>
+        </a>
+        <p>Проектируем и внедряем ИИ-агентов под процессы вашего бизнеса.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <div class="mono muted">НАВИГАЦИЯ</div>
+          <a href="#services">Услуги</a>
+          <a href="#approach">Подход</a>
+          <a href="#why">Почему мы</a>
+          <a href="#cases">Кейсы</a>
+        </div>
+        <div class="footer-col">
+          <div class="mono muted">КОНТАКТ</div>
+          <a href="mailto:info@promptica.ru">info@promptica.ru</a>
+          <a href="https://t.me/promptica">Telegram: @promptica</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span class="mono muted">© 2024–2026 Promptica</span>
+      <span class="mono muted">Создаём агентов, которые работают</span>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
