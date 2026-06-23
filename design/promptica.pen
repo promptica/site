@@ -1796,130 +1796,73 @@
                 },
                 {
                   "type": "frame",
-                  "id": "IcIaK",
-                  "name": "Form",
-                  "width": 520,
+                  "id": "QVzAx",
+                  "name": "CTA Action",
                   "layout": "vertical",
-                  "gap": 14,
+                  "gap": 18,
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "uJocw",
-                      "name": "Имя",
-                      "width": "fill_container",
-                      "fill": "$surface-2",
-                      "cornerRadius": "$radius-sm",
-                      "stroke": "$border-subtle",
-                      "strokeWidth": 1,
-                      "layout": "vertical",
-                      "padding": [
-                        14,
-                        16
-                      ],
-                      "justifyContent": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "A466P",
-                          "name": "Placeholder",
-                          "fill": "$text-muted",
-                          "content": "Имя",
-                          "fontFamily": "$font-body",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "o1eQB",
-                      "name": "Рабочий email",
-                      "width": "fill_container",
-                      "fill": "$surface-2",
-                      "cornerRadius": "$radius-sm",
-                      "stroke": "$border-subtle",
-                      "strokeWidth": 1,
-                      "layout": "vertical",
-                      "padding": [
-                        14,
-                        16
-                      ],
-                      "justifyContent": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "kgfS3",
-                          "name": "Placeholder",
-                          "fill": "$text-muted",
-                          "content": "Рабочий email",
-                          "fontFamily": "$font-body",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "n8uKpz",
-                      "name": "Коротко о задаче и процессе",
-                      "width": "fill_container",
-                      "height": 108,
-                      "fill": "$surface-2",
-                      "cornerRadius": "$radius-sm",
-                      "stroke": "$border-subtle",
-                      "strokeWidth": 1,
-                      "layout": "vertical",
-                      "padding": [
-                        14,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "WJo23",
-                          "name": "Placeholder",
-                          "fill": "$text-muted",
-                          "content": "Коротко о задаче и процессе",
-                          "fontFamily": "$font-body",
-                          "fontSize": 15,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "V1Gug",
-                      "name": "Submit",
-                      "width": "fill_container",
+                      "id": "QgyYj",
+                      "name": "Telegram Button",
                       "fill": "$accent",
                       "cornerRadius": "$radius-sm",
-                      "gap": 8,
+                      "gap": 10,
                       "padding": [
                         15,
-                        0
+                        28
                       ],
-                      "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
                         {
+                          "type": "icon",
+                          "id": "nG5Ns",
+                          "name": "Send",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "send",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
                           "type": "text",
-                          "id": "I5aUR",
+                          "id": "RXCva",
                           "name": "Label",
                           "fill": "#FFFFFF",
-                          "content": "Отправить заявку",
+                          "content": "Написать в Telegram",
                           "fontFamily": "$font-body",
                           "fontSize": 15,
                           "fontWeight": "500"
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XYFqD",
+                      "name": "Human Note",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
                         {
                           "type": "icon",
-                          "id": "C2ffbu",
-                          "name": "Arrow",
+                          "id": "FWQXx",
+                          "name": "PersonIcon",
                           "width": 16,
                           "height": 16,
-                          "icon": "arrow-right",
+                          "icon": "message-circle-heart",
                           "library": "lucide",
-                          "fill": "#FFFFFF"
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m9Ky8T",
+                          "name": "NoteText",
+                          "fill": "$text-muted",
+                          "content": "Отвечает живой человек из команды, а не бот — обычно в течение пары часов.",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
