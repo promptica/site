@@ -97,7 +97,7 @@ svg { display: inline-block; vertical-align: middle; }
 .eyebrow svg { width: 14px; height: 14px; color: var(--accent); }
 
 .headline { font-size: clamp(38px, 6.5vw, 62px); line-height: 1.05; max-width: 920px; }
-.rotate-line { display: inline-flex; align-items: center; justify-content: center; gap: 4px; }
+.rotate-line { display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-height: 1.05em; line-height: 1.05; vertical-align: top; }
 .rotate { color: var(--accent); }
 .caret { display: inline-block; width: 5px; height: .9em; border-radius: 1px; background: var(--accent); animation: blink 1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
