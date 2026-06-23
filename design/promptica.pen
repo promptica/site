@@ -3177,6 +3177,933 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "mReUY",
+      "x": 5620,
+      "y": 0,
+      "name": "Hero V3 — Боль/Решение",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "r2oEW",
+          "name": "Nav Section",
+          "width": "fill_container",
+          "padding": [
+            20,
+            120
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "VhjKu",
+              "name": "Nav",
+              "width": 1200,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "m1dfc",
+                  "name": "Logo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "abPCj",
+                      "name": "Mark",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "hexagon",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CvsM4",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "Promptica",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "whNs3",
+                  "name": "Nav Links",
+                  "gap": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Zw9Vm",
+                      "name": "Услуги",
+                      "fill": "$text-muted",
+                      "content": "Услуги",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cbLyD",
+                      "name": "Подход",
+                      "fill": "$text-muted",
+                      "content": "Подход",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fp2cI",
+                      "name": "Почему мы",
+                      "fill": "$text-muted",
+                      "content": "Почему мы",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PizLE",
+                      "name": "Кейсы",
+                      "fill": "$text-muted",
+                      "content": "Кейсы",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n7gdXd",
+                  "name": "Nav CTA",
+                  "fill": "$accent",
+                  "cornerRadius": "$radius-sm",
+                  "padding": [
+                    10,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BOIFE",
+                      "name": "Label",
+                      "fill": "#FFFFFF",
+                      "content": "Написать в Telegram",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Vau1e",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 26,
+          "padding": [
+            60,
+            120,
+            88,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WmosE",
+              "name": "Eyebrow",
+              "fill": "$surface",
+              "cornerRadius": 99,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                6,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "r6eD9J",
+                  "name": "Dot",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "alarm-clock",
+                  "library": "lucide",
+                  "fill": "$accent"
+                },
+                {
+                  "type": "text",
+                  "id": "D0cNO",
+                  "name": "T",
+                  "fill": "$text-muted",
+                  "content": "БОЛЬ ЗНАКОМА?",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "e4Rc5",
+              "name": "Headline",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 840,
+              "content": "Команда тонет в рутине? Посадите на неё агента.",
+              "lineHeight": 1.07,
+              "textAlign": "center",
+              "fontFamily": "$font-heading",
+              "fontSize": 52,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "RRUie",
+              "name": "Sub",
+              "fill": "$text-muted",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Promptica собирает агента под ваши процессы: он разгребает поток задач круглосуточно, а людям оставляет только то, где нужны решение и подпись.",
+              "lineHeight": 1.55,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "jb6W3",
+              "name": "Compare",
+              "width": 1080,
+              "gap": 20,
+              "padding": [
+                20,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CMRYR",
+                  "name": "Без агента",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": "$surface",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R1WML",
+                      "name": "Head",
+                      "width": "fill_container",
+                      "padding": [
+                        0,
+                        0,
+                        8,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ggu54",
+                          "name": "Ttl",
+                          "fill": "$text-primary",
+                          "content": "Без агента",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b6Uohj",
+                          "name": "Badge",
+                          "fill": "$surface-2",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            5,
+                            11
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "y9DIvr",
+                              "name": "B",
+                              "fill": "#EF4444",
+                              "content": "47 в очереди",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mQRrT",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "p0T8Pe",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle-x",
+                          "library": "lucide",
+                          "fill": "#EF4444"
+                        },
+                        {
+                          "type": "text",
+                          "id": "n5bQFX",
+                          "name": "Tx",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ответить на 12 заявок с сайта",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tyMho",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "uPLQM",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle-x",
+                          "library": "lucide",
+                          "fill": "#EF4444"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BI2E7",
+                          "name": "Tx",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Занести новых лидов в CRM",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jHLGh",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Xq7G7",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle",
+                          "library": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qdj77",
+                          "name": "Tx",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Собрать КП для «Север»",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KyADr",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Klp19",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle",
+                          "library": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GL4zI",
+                          "name": "Tx",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Напомнить должникам по оплате",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n4stHp",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "weAxI",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle",
+                          "library": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tR0tt",
+                          "name": "Tx",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Разобрать почту поддержки",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XTMWs",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "q7u98z",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle",
+                          "library": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Mh9V4",
+                          "name": "Tx",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Обновить статусы в Mattermost",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FOzWr",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "FrpZZ",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "ellipsis",
+                          "library": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qyzkA",
+                          "name": "Tx",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "ещё 41 задача…",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "vCR9C",
+                  "name": "Arrow",
+                  "width": 28,
+                  "height": 28,
+                  "icon": "arrow-right",
+                  "library": "lucide",
+                  "fill": "$accent"
+                },
+                {
+                  "type": "frame",
+                  "id": "AMd1r",
+                  "name": "С агентом Promptica",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": "$surface",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "g3hQ5",
+                      "name": "Head",
+                      "width": "fill_container",
+                      "padding": [
+                        0,
+                        0,
+                        8,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Lf738",
+                          "name": "Ttl",
+                          "fill": "$text-primary",
+                          "content": "С агентом Promptica",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "shV4C",
+                          "name": "Badge",
+                          "fill": "$surface-2",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            5,
+                            11
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BTuGN",
+                              "name": "B",
+                              "fill": "$accent",
+                              "content": "3 требуют вас",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MpONr",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "mP5V3",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle-check",
+                          "library": "lucide",
+                          "fill": "#22C55E"
+                        },
+                        {
+                          "type": "text",
+                          "id": "H6iyr",
+                          "name": "Tx",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Заявки обработаны и занесены в CRM",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RpbqJ",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "hkZoJ",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle-check",
+                          "library": "lucide",
+                          "fill": "#22C55E"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QpEVP",
+                          "name": "Tx",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "КП отправлены клиентам",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ybjB9",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "xQmj1",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle-check",
+                          "library": "lucide",
+                          "fill": "#22C55E"
+                        },
+                        {
+                          "type": "text",
+                          "id": "K1jFs",
+                          "name": "Tx",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Напоминания по оплате разосланы",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "deQkA",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "v4iVu",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "circle-check",
+                          "library": "lucide",
+                          "fill": "#22C55E"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c0AnNV",
+                          "name": "Tx",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Почта поддержки рассортирована",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UTRdx",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "SYg35",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lbIzX",
+                          "name": "Tx",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Сделка «Север» — нужен ваш звонок",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vdn7C",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "padding": [
+                        7,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "jSyHQ",
+                          "name": "I",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gQh1D",
+                          "name": "Tx",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Скидка больше 15% — нужно ваше «ок»",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BE1RQ",
+              "name": "Buttons",
+              "gap": 12,
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DqcZo",
+                  "name": "Primary",
+                  "fill": "$accent",
+                  "cornerRadius": "$radius-sm",
+                  "gap": 8,
+                  "padding": [
+                    13,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h2zo9",
+                      "name": "L",
+                      "fill": "#FFFFFF",
+                      "content": "Обсудить проект",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "XEYSX",
+                      "name": "A",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rZzNb",
+                  "name": "Secondary",
+                  "fill": "#00000000",
+                  "cornerRadius": "$radius-sm",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    13,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Yp0Xq",
+                      "name": "L",
+                      "fill": "$text-primary",
+                      "content": "Как мы работаем",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
