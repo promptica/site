@@ -2371,8 +2371,12 @@
         },
         {
           "type": "frame",
-          "id": "Tgfp0",
+          "id": "KrrVt",
           "name": "CTA Section",
+          "metadata": {
+            "type": "section",
+            "anchor": "contact"
+          },
           "width": "fill_container",
           "fill": "$bg",
           "layout": "vertical",
