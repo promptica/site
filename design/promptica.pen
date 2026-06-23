@@ -45,7 +45,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "promptica-logo.png",
+                        "url": "promptica-logo-white.png",
                         "mode": "fit"
                       },
                       "width": 26,
@@ -1954,7 +1954,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "promptica-logo.png",
+                            "url": "promptica-logo-white.png",
                             "mode": "fit"
                           },
                           "width": 26,
